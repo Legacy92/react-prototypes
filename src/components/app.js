@@ -3,6 +3,14 @@ import ContactList from './contact_list.js';
 import ContactForm from './contact_form.js';
 import contactData from '../data/contacts.js';
 
+export default (props) => {
+    return (
+        <div className="container">
+            <h1 className="text-center">Stopwatch</h1>
+            <Stopwatch />
+        </div>
+    )
+}
 
 class App extends Component {
     constructor(props){
